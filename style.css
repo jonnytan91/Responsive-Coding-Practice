@@ -1,0 +1,131 @@
+body {
+  font-family:Helvetica,sans-serif;
+  font-size:22px;
+  color:seashell;
+  background-color:black; 
+  opacity:.9;
+  text-align:center;
+}
+.header {
+  display:flex;
+  width:100%;
+  border-bottom:1px solid seashell;
+  height:69px;
+  align-items:center;
+  justify-content:space-between;
+
+}
+.logo {
+  display:flex;
+  height:50px;
+  width:auto;
+}
+.nav {
+  display:inline-flex;
+  text-decoration:underline;
+  justify-content:space-around;
+}
+.nav ul{
+  list-style-type: none;
+  display:inline-flex; 
+}
+.nav li { 
+  padding:0 10px;
+}
+.container {
+  display:block; 
+  align-items:center;
+  justify-content:center;  
+  //flex-flow: column;
+}
+.pt40 {
+  padding-top: 40px;
+}
+.hero {
+  display:flex;
+  background-image:url('https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg');
+  background-position: center;
+  background-repeat:no-repeat;
+  margin:0 auto;
+  //width:1200px;
+  height:700px;
+  align-items:center;
+  justify-content:center;  
+  flex-flow: column;
+}
+.hero h2,.hero h4{ 
+  background-color:black;
+  width:100%;
+  padding:10px 0;
+  margin:0;
+}
+h2,h4 {
+  margin:25px 0 15px 0;
+  padding:0px 0;
+}
+.row {
+  display:flex;
+  justify-content:center;  
+  flex-wrap: wrap;
+  max-width:1200px;
+  margin:0 auto;
+
+}
+.teaCard {
+  //display: flex;
+  padding:0 10px;
+}
+.teaCard img{
+  width:300px;
+  height:200px;
+}
+.teaCard p { 
+  margin-top:10px;
+}
+.locations {
+  display: flex;
+  background-image:url('https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg');
+  background-position: center;
+  background-repeat:repeat-y; 
+  margin:0 auto;
+  max-width:1200px;
+  min-height:500px;
+  //align-items:center;
+  justify-content:center;  
+  flex-flow: column;
+}
+.locCard {
+  width:300px;
+  height:300px;
+  background-color:black;
+  margin:20px;
+  display:inline-flex;
+  justify-content:center;  
+  flex-flow: column;
+
+}
+.copyright {
+  text-align:left;
+  font-size:.75rem;
+  margin-left:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
